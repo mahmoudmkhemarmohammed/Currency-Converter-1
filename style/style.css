@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #080125;
+}
+/* Start Container */
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: #000b4b;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* End Container */
+/* Start Inputs */
+.container .inputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.container .inputs input {
+    width: 75%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(99, 206, 255);
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.container .inputs label {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: bold;
+
+}
+/* End Inputs */
+/* Start Outputs */
+.container .outputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+}
+.container .outputs .egypt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
+.container .outputs .egypt span{
+    flex: 1;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container .outputs .egypt span:first-child{
+    height: 60px;
+    padding: 5px;
+    background-color: #2e2bff;
+    border-radius: 10px;
+    text-align: left;
+    transition: .3s;
+}
+.container .outputs .sar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
+.container .outputs .sar span{
+    flex: 1;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container .outputs .sar span:first-child{
+    height: 60px;
+    padding: 5px;
+    background-color: #2e2bff;
+    border-radius: 10px;
+    text-align: left;
+    transition: .3s;
+}
+/* End Outputs */
